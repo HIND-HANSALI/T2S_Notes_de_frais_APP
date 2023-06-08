@@ -2,7 +2,7 @@
 import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, JoinColumn } from "typeorm";
 import { Division } from "../Division/Division.entity";
 import { Role } from "../Role/Role.entity";
-import { StatutEmployee } from "../Statut employée/StatutEmployee.entity";
+import { StatutEmployee } from "../Statut_employée/StatutEmployee.entity";
 
 
 @Entity('users')

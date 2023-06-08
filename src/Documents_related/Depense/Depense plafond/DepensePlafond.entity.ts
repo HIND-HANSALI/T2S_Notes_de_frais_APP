@@ -1,6 +1,6 @@
 import { Entity, PrimaryGeneratedColumn, Column,OneToOne, ManyToOne, JoinColumn } from "typeorm";
 import { DepenseCategory } from "../Depense category/DepenseCategory.entity";
-import { StatutEmployee } from "src/User related/Statut employée/StatutEmployee.entity";
+import { StatutEmployee } from "src/User_related/Statut_employée/StatutEmployee.entity";
 
 
 @Entity('depense_plafonds')

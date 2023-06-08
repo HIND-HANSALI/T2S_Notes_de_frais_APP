@@ -1,7 +1,7 @@
 import {Column,Entity,PrimaryGeneratedColumn,JoinColumn, OneToOne,OneToMany,ManyToMany,JoinTable} from'typeorm';
-import { DemandeAvance } from '../Demande d avance/DemandeDavance.entity';
-import { NoteDeFrais } from '../Note de frais/NoteDeFrais.entity';
-import { OrdreDeMission } from '../Ordre de mission/OrdreDeMission.entity';
+import { DemandeAvance } from '../Demande_d_avance/DemandeDavance.entity';
+import { NoteDeFrais } from '../Note_de_frais/NoteDeFrais.entity';
+import { OrdreDeMission } from '../Ordre_de_mission/OrdreDeMission.entity';
 
 
 @Entity('doc_types')

@@ -1,7 +1,7 @@
-import { Role } from "src/User related/Role/Role.entity";
+import { Role } from "src/User_related/Role/Role.entity";
 import { Column, Entity, PrimaryGeneratedColumn, OneToOne, ManyToMany, JoinColumn, JoinTable} from "typeorm";
-import { CycleValidation } from "../Cycle validation/CycleValidation.entity";
-import { StatutValidation } from "../Statut validation/StatutValidation.entity";
+import { CycleValidation } from "../Cycle_validation/CycleValidation.entity";
+import { StatutValidation } from "../Statut_validation/StatutValidation.entity";
 
 
 @Entity('niveaux_validation')

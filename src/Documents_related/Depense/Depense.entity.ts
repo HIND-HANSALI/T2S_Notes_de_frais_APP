@@ -1,7 +1,7 @@
-import { NoteDeFrais } from "src/Documents related/Note de frais/NoteDeFrais.entity";
+import { NoteDeFrais } from "src/Documents_related/Note_de_frais/NoteDeFrais.entity";
 import { Column, Entity, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm";
 import { DepenseCategory } from './Depense category/DepenseCategory.entity'
-import { OrdreDeMission } from "src/Documents related/Ordre de mission/OrdreDeMission.entity";
+import { OrdreDeMission } from "src/Documents_related/Ordre_de_mission/OrdreDeMission.entity";
 
 
 @Entity('depenses')

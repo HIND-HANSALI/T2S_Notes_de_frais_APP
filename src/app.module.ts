@@ -4,21 +4,21 @@ import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
 // Entites
-import { Depense } from './Documents related/Note de frais/Depense/Depense.entity';
-import { DepenseCategory } from './Documents related/Note de frais/Depense/Depense category/DepenseCategory.entity';
-import { NoteDeFrais } from './Documents related/Note de frais/NoteDeFrais.entity';
-import { DemandeAvance } from './Documents related/Demande d avance/DemandeDavance.entity';
-import { DocType } from './Documents related/Document type/DocType.entity';
-import { OrdreDeMission } from './Documents related/Ordre de mission/OrdreDeMission.entity';
-import { DepensePlafond } from './Documents related/Note de frais/Depense/Depense plafond/DepensePlafond.entity';
-import { StatutEmployee } from './User related/Statut employée/StatutEmployee.entity';
-import { Role } from './User related/Role/Role.entity';
-import { Permission } from './User related/Permission/Permission.entity';
-import { User } from './User related/User/User.entity';
-import { Division } from './User related/Division/Division.entity';
-import { StatutValidation } from './validation workflow/Statut validation/StatutValidation.entity';
-import { NiveauValidation } from './validation workflow/Niveau validation/NiveauValidation.entity';
-import { CycleValidation } from './validation workflow/Cycle validation/CycleValidation.entity';
+import { Depense } from './Documents_related/Depense/Depense.entity';
+import { DepenseCategory } from './Documents_related/Depense/Depense category/DepenseCategory.entity';
+import { NoteDeFrais } from './Documents_related/Note_de_frais/NoteDeFrais.entity';
+import { DemandeAvance } from './Documents_related/Demande_d_avance/DemandeDavance.entity';
+import { DocType } from './Documents_related/Document_type/DocType.entity';
+import { OrdreDeMission } from './Documents_related/Ordre_de_mission/OrdreDeMission.entity';
+import { DepensePlafond } from './Documents_related/Depense/Depense plafond/DepensePlafond.entity';
+import { StatutEmployee } from './User_related/Statut_employée/StatutEmployee.entity';
+import { Role } from './User_related/Role/Role.entity';
+import { Permission } from './User_related/Permission/Permission.entity';
+import { User } from './User_related/User/User.entity';
+import { Division } from './User_related/Division/Division.entity';
+import { StatutValidation } from './validation_workflow/Statut_validation/StatutValidation.entity';
+import { NiveauValidation } from './validation_workflow/Niveau_validation/NiveauValidation.entity';
+import { CycleValidation } from './validation_workflow/Cycle_validation/CycleValidation.entity';
 
 @Module({
   imports: [

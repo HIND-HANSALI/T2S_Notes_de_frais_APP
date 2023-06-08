@@ -1,6 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn, OneToMany, ManyToOne, JoinColumn} from "typeorm";
-import { Depense } from "src/Documents related/Note de frais/Depense/Depense.entity";
-import { DocType } from "../Document type/DocType.entity";
+import { Depense } from "src/Documents_related/Depense/Depense.entity";
+import { DocType } from "../Document_type/DocType.entity";
 
 @Entity('notes_de_frais')
 export class NoteDeFrais{

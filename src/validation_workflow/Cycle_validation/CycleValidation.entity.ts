@@ -1,6 +1,6 @@
-import { DocType } from "src/Documents related/Document type/DocType.entity";
+import { DocType } from "src/Documents_related/Document_type/DocType.entity";
 import { Column, Entity, PrimaryGeneratedColumn, OneToOne,ManyToMany, JoinColumn} from "typeorm";
-import { NiveauValidation } from "../Niveau validation/NiveauValidation.entity";
+import { NiveauValidation } from "../Niveau_validation/NiveauValidation.entity";
 
 
 @Entity('cycles_validation')

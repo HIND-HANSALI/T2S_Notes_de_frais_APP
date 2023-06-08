@@ -1,6 +1,6 @@
 import {Column,Entity,PrimaryGeneratedColumn,JoinColumn, OneToOne,OneToMany,ManyToOne,JoinTable} from'typeorm';
-import { DocType } from '../Document type/DocType.entity';
-import { OrdreDeMission } from '../Ordre de mission/OrdreDeMission.entity';
+import { DocType } from '../Document_type/DocType.entity';
+import { OrdreDeMission } from '../Ordre_de_mission/OrdreDeMission.entity';
 
 @Entity('demandes_d_avance')
 export class DemandeAvance{
