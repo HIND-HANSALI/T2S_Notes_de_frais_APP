@@ -1,5 +1,5 @@
 import { Entity, PrimaryGeneratedColumn, Column,OneToOne, ManyToOne, JoinColumn } from "typeorm";
-import { DepenseCategory } from "../Depense category/DepenseCategory.entity";
+import { DepenseCategory } from "../Depense_category/DepenseCategory.entity";
 import { StatutEmployee } from "src/User_related/Statut_employée/StatutEmployee.entity";
 
 
