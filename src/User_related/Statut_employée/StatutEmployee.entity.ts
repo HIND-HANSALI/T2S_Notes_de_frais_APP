@@ -1,4 +1,4 @@
-import { DepensePlafond } from "src/Documents_related/Depense/Depense plafond/DepensePlafond.entity";
+import { DepensePlafond } from "src/Documents_related/Depense/Depense_plafond/DepensePlafond.entity";
 import { Entity, PrimaryGeneratedColumn, Column, OneToMany, JoinColumn } from "typeorm";
 import { User } from "../User/User.entity";
 
